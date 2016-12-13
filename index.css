@@ -1,0 +1,118 @@
+form {
+    border: 3px solid #f1f1f1;
+}
+
+body {
+    background: #298eea;
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.logo {
+    display: block;
+    height: 35px;
+    width: auto;
+    margin: 0 auto 30px;
+}
+
+.signup-form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    background: white;
+}
+
+.signup-form legend {
+    text-align: center;
+    font-weight: 300;
+    color: #565656;
+    margin-left: 0 auto 45px;
+    font-size: 35px;
+    line-height: 38px;
+    letter-spacing: 0;
+}
+
+input[type=text], input[type=password] {
+    width: 320px;
+    padding: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    height: 55px;
+    cursor: pointer;
+    width: 320px;
+    border: 2px
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.logo {
+    height: 35px;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    text-align: center;
+    float: center;
+    padding-top: 16px;
+}
+
+.signup-form p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    color: #999;
+}
+
+.signup-form a {
+    text-decoration: none;
+    color: #999;
+    border-bottom: 1px solid #bbb;
+}
+
+.signup-form a:hover {
+    border-color: #999;
+    color: #777;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+    font-weight: 600;
+    border: 0;
+    padding: 0;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover { color: #E7F1F9 }
+
+.footer p { margin-bottom: 40px }
+
+/*need to center "forgot password" and "sign up" legend; need to increase "sign up" font size.*/
